@@ -88,11 +88,14 @@ function get_models() {
     return [
         "models" => [
          'meta-llama/Meta-Llama-3.1-8B-Instruct' => 'meta-llama/Meta-Llama-3.1-8B-Instruct',
-         'meta-llama/Meta-Llama-3.1-70B-Instruct' => 'meta-llama/Meta-Llama-3.1-70B-Instruct'
+         'meta-llama/Meta-Llama-3.1-70B-Instruct' => 'meta-llama/Meta-Llama-3.1-70B-Instruct',
+         'meta-llama/Llama-3.3-70B-Instruct' => 'meta-llama/Llama-3.3-70B-Instruct'
+
         ],
         "types" => [
           'meta-llama/Meta-Llama-3.1-8B-Instruct' => 'chat',
-          'meta-llama/Meta-Llama-3.1-70B-Instruct' => 'chat'
+          'meta-llama/Meta-Llama-3.1-70B-Instruct' => 'chat',
+          'meta-llama/Llama-3.3-70B-Instruct' => 'chat'
         ]
     ];
 }
