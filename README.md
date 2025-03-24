@@ -3,8 +3,11 @@ This is a fork that changes the url openai adresses to the addresses of IONOS.
 The available models are only llama. Those were compatible with the chat framework.
 Also the request to IONOS were simplified, since temperature and other options were not compatible with the ionos API
 
-# IMPORTANT TO KNOW: the source of truth box cannot be empty! it has to have at least an emtpy space string as content (hit space bar and save)
-Otherwise there will be an error: ERROR: litellm.APIError: APIError: OpenAIException - Internal Server Error Received Model Group=meta-llama/Llama-3.3-70B-Instruct Available Model Group Fallbacks=None
+# IMPORTANT 
+*the source of truth box cannot be left empty! it has to have at least an emtpy space string as content (hit space bar and save)
+Otherwise there will be an error: 
+```ERROR: litellm.APIError: APIError: OpenAIException - Internal Server Error Received Model Group=meta-llama/Llama-3.3-70B-Instruct Available Model Group Fallbacks=None*
+```
 
 
 -------
