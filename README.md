@@ -6,8 +6,7 @@ Also the request to IONOS were simplified, since temperature and other options w
 # IMPORTANT 
 *the source of truth box cannot be left empty! it has to have at least an emtpy space string as content (hit space bar and save)
 Otherwise there will be an error: 
-```ERROR: litellm.APIError: APIError: OpenAIException - Internal Server Error Received Model Group=meta-llama/Llama-3.3-70B-Instruct Available Model Group Fallbacks=None*
-```
+```ERROR: litellm.APIError: APIError: OpenAIException - Internal Server Error Received Model Group=meta-llama/Llama-3.3-70B-Instruct Available Model Group Fallbacks=None```
 
 
 -------
