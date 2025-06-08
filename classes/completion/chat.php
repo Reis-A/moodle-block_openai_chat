@@ -74,13 +74,7 @@ class chat extends \block_openai_chat\completion {
     private function make_api_call($history) {
         $curlbody = [
             "model" => $this->model,
-            "messages" => $history,
-            "temperature" => (float) $this->temperature,
-            "max_tokens" => (int) $this->maxlength,
-            "top_p" => (float) $this->topp,
-            "frequency_penalty" => (float) $this->frequency,
-            "presence_penalty" => (float) $this->presence,
-            "stop" => $this->username . ":"
+            "messages" => $history,  
         ];
 
         $curl = new \curl();
