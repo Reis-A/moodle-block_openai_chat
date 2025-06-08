@@ -75,6 +75,11 @@ class chat extends \block_openai_chat\completion {
         $curlbody = [
             "model" => $this->model,
             "messages" => $history,
+            "temperature" => (float) $this->temperature,
+            "max_completion_tokens" => (int) $this->maxlength,
+            "top_p" => (float) $this->topp,
+            "frequency_penalty" => (float) $this->frequency,
+            "presence_penalty" => (float) $this->presence,
         ];
 
         $curl = new \curl();
